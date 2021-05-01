@@ -29,6 +29,7 @@ export default function Dictionary() {
           <input
             type="Search"
             className="col-sm-10 form-control"
+            placeholder="What word would you like to look up?"
             onChange={updateSearch}
           ></input>
           <button type="Submit" className="btn btn-primary">

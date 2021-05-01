@@ -1,13 +1,19 @@
 import React from "react";
-import ReactAudioPlayer from "react-audio-player";
 import "./Phonetics.css";
 
 export default function Phonetics(props) {
+  function playAudio() {
+    let audio = new Audio(props.phonetics.audio);
+    audio.play();
+  }
+
   return (
     <div className="Phonetics">
       <h4>
         {props.phonetics.text}
-        <ReactAudioPlayer src={props.phonetics.audio} controls />
+        <button className="speakerButton" onClick={playAudio}>
+          🔈
+        </button>
       </h4>
     </div>
   );

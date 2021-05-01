@@ -2,6 +2,21 @@
   margin: 30px;
 }
 
+.App .container {
+  padding: 0;
+}
+
+.App main {
+  background: #27b1be;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.App h1 {
+  text-align: center;
+  padding-top: 8px;
+}
+
 .App footer {
   font-size: smaller;
 }
