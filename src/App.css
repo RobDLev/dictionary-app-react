@@ -15,6 +15,15 @@
 .App h1 {
   text-align: center;
   padding-top: 8px;
+  color: #facc2e;
+}
+
+.App .Antonio {
+  font-family: "Antonio", sans-serif;
+}
+
+.App .AlfaSlabOne {
+  font-family: "Alfa Slab One", cursive;
 }
 
 .App footer {
