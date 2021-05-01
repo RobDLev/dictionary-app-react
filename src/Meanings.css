@@ -1,3 +1,15 @@
+.Meanings h5 {
+  margin-bottom: 0;
+}
+
 .Meanings em {
   background: #facc2e;
+}
+
+.Meanings ul {
+  margin-bottom: 0;
+}
+
+.Meanings li {
+  padding-top: 15px;
 }

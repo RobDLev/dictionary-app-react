@@ -1,4 +1,9 @@
 .Phonetics button {
   border: none;
   background: none;
+  transition: all 200ms ease-in-out;
+}
+
+.Phonetics button:hover {
+  font-size: 30px;
 }
