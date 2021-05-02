@@ -11,11 +11,12 @@ export default function Photos(props) {
             {props.photos.map(function (photo, index) {
               return (
                 <div className="col-lg-4 col-md-6 col-sm-12">
-                  <a href={photo.src.original} target="_blank">
+                  <a href={photo.src.original} target="_blank" rel="noreferrer">
                     <img
                       key={index}
                       src={photo.src.tiny}
                       className="img-fluid rounded"
+                      alt=""
                     />
                   </a>
                 </div>
@@ -24,7 +25,7 @@ export default function Photos(props) {
           </div>
           <div id="courtesy">
             Image search courtesy of{" "}
-            <a href="https://pexels.com" target="_blank">
+            <a href="https://pexels.com" target="_blank" rel="noreferrer">
               pexels.com
             </a>
           </div>
