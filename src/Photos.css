@@ -3,6 +3,12 @@
   margin: 15px 30px 15px 30px;
 }
 
+.Photos .img-fluid {
+  padding-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
 .Photos #courtesy {
   text-align: center;
   font-size: 10px;
