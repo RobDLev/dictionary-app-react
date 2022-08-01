@@ -6,16 +6,15 @@ export default function Phonetics(props) {
     let audio = new Audio(props.phonetics.audio);
     audio.play();
   }
-  if (props.phonetics.audio !== "") { 
-    return (
-      <div className="Phonetics">
-        <h4>
-          {props.phonetics.text}
-          <button className="speakerButton" onClick={playAudio}>
-            🔈
-          </button>
-        </h4>
-      </div>
-    );    
-  }
+  
+  return (
+    <div className="Phonetics">
+      <h4>
+        {props.phonetics.text}
+        <button className="speakerButton" onClick={playAudio}>
+          🔈
+        </button>
+      </h4>
+    </div>
+  );    
 }
