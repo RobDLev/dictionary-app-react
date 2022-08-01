@@ -2,12 +2,11 @@ import React from "react";
 import "./Phonetics.css";
 
 export default function Phonetics(props) {
-  if (props.phonetics.audio !== "") {
-    function playAudio() {
-      let audio = new Audio(props.phonetics.audio);
-      audio.play();
-    }
-
+  function playAudio() {
+    let audio = new Audio(props.phonetics.audio);
+    audio.play();
+  }
+  if (props.phonetics.audio) { 
     return (
       <div className="Phonetics">
         <h4>
@@ -17,6 +16,6 @@ export default function Phonetics(props) {
           </button>
         </h4>
       </div>
-    );
-  }    
+    );    
+  }
 }
