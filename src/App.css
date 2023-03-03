@@ -19,7 +19,7 @@
   text-align: right;
 }
 
-.App #toggle {
+.App #toggle_off {
   font-size: 20px;
   padding: 0 3px 0 0;
 }
